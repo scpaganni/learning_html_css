@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;1,100;1,200&display=swap');
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #A0682C;
+}
+
+a {
+    color: #84A59D;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Exemplo de pseudo-classes */
+a:visited {
+    color: #F28482;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Exemplo de pseudo-elementos*/
+a::after {
+    content: ' ￫';
+    color: #e6d8d7;
+}
+
+p {
+    text-align: justify;
+    color: #E36C63;
+    font-size: 20px;
+}
+
+p::first-letter {
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+    font-style: italic;
+    color: #E77C74;
+    background-color: #d0302518;
+}
