@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div {
+  background-color: #f1dede;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #e4b7b7;
+  display: inline-block;
+}
+
+div > p {
+  display: none;
+}
+
+div:hover > p {
+  background-color: #bbacc1;
+  display: block;
+}
+
+p {
+  text-align: justify;
+  text-indent: 15px;
+}
+
+mark {
+  background-color: #82BDED;
+}
