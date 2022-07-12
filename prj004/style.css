@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Jungle';
+    src: url('fonts/urban_jungle/UrbanJungleDEMO.otf');
+}
+@font-face {
+    font-family: 'Curve';
+    src: url('fonts/learning_curve/LearningCurve.ttf');
+}
+
+h1, h2 {
+    font-family: 'Jungle', monospace;
+}
+
+p {
+    font-family: 'Curve', monospace;
+    font-size: 2em;
+    text-align: justify;
+}
