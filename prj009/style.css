@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+.pgf1 {
+    border: 2px solid darkmagenta;
+}
+
+.pgf2 {
+    border: 5px solid red;
+    height: 100px;
+    width: 200px;
+}
