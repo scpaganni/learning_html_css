@@ -5,13 +5,13 @@ body {
   background-color: #faf9f0;
 }
 
-h1,
-h2 {
+h1, h2 {
   color: #cf9077;
 }
 
 nav {
   padding: 5px;
+  box-shadow: 5px 3px 7px 1px #97513585;
 }
 
 a {
@@ -30,7 +30,7 @@ header {
 }
 
 main {
-  background-color: #f0edd1;
+  background-color: #f0edd1c2;
   padding: 10px;
   margin: 10px;
 }
@@ -50,4 +50,8 @@ footer {
   padding: 10px;
   margin: 10px;
   text-align: center;
+}
+
+footer > p {
+  margin: 0px;
 }
