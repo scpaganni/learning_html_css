@@ -1,0 +1,26 @@
+/* Configurando a posição da imagem de fundo dentro de um quadro */
+@charset "UTF-8";
+
+.bloco {
+  background-image: url("img/wallpaper003.jpg");
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+#q1 {
+  background-position: left top;
+}
+
+#q2 {
+  background-position: left center;
+}
+
+#q3 {
+  background-position: right bottom;
+}
+
+#q4 {
+  background-position: center center;
+}
