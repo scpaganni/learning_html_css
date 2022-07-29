@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* O objetivo desse exercício é centralizar o #conteúdo dentro do #container */
+
+#container {
+    background-image: url('target001.png');
+    background-size: 100% 100%;
+    position: relative;
+    height: 100vh;
+    padding: 15px;
+    background-color: #2CA58D;
+}
+
+#conteudo {
+    position: absolute;
+    background-image: url('target001.png');
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+    background-color: #84BC9C;
+    /* São essas propriedades que fazem a centralização, não é possível fazer usando a propriedade margin porque ela só centraliza horizontalmente, veja o vídeo a seguir https://youtu.be/-w0Qo_qQiRg */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Existe um jeito muito mais fácil de alinhar items, com apenas três linhas, e eu não tô falando isso em tom de crítica, pelo contrário, é sempre bom saber mais de um modo de resolver um problema. Então lá vai: */
+
+/* #container { */
+    /* display: flex; Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo */
+    /* justify-content: center; Alinhamento horizontal, ou seja, dispensa o margin: auto" */
+    /* align-items: center; Alinhamento vertical */
+/* } */
+
+/* Essas propriedades sempre são colocadas no elemento-pai (container), não se esqueçam desse importante detalhe. */
