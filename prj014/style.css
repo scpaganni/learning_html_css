@@ -1,26 +1,34 @@
 @charset "UTF-8";
 
 body {
-    height: 100vh;
-    background-color: beige;
-    background-image: url(img/wallpaper002.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; /* Faz corte na imagem e preenche a tela inteira */
+  height: 100vh;
+  background-color: beige;
+  background-image: url(img/wallpaper002.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Faz corte na imagem e preenche a tela inteira */
+  background-attachment: fixed; /* Background fica fixado e apenas o conteúdo rola */
 }
 
+/* Shorthand do background anterior: a order é
+   color > image > position > repeat > size > attachment
+   body {
+    background: beige url('img/wallpaper002.jpg') center center no-repeat cover fixed; }
+*/
+
+
 main {
-    background-color: antiquewhite;
-    width: 400px;
-    padding: 10px;
-    margin: auto;
-    border-radius: 15px;
+  background-color: antiquewhite;
+  max-width: 400px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 15px;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 strong {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
