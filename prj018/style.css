@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Alinhamento vertical é feito com 'vertical-align: top middle bottom' */
+
+/* Alinhamento horizontal é feito com 'text-align: left center right' */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+td, th {
+  border-bottom: 2px solid black;
+  padding: 15px;
+}
+
+/* tr:hover {
+  background-color: coral;
+} */
+
+/* Efeito Zebrado na Tabela */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
