@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+  width: 500px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+ 
+table {
+  width: 500px;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+caption {
+  font-style: italic;
+  background-color: rgba(128, 128, 128, 0.445);
+  padding: 10px;
+  font-size: 20px;
+}
+
+table, td, th {
+  border: 1px dotted black;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+.numero {
+  text-align: right;
+}
