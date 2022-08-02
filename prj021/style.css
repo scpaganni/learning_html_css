@@ -4,10 +4,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> fcb058b (Agrupando colunas com colgroup)
 table {
   width: 500px;
   border-collapse: collapse;
@@ -19,18 +15,12 @@ caption {
   padding: 8px;
 }
 
-<<<<<<< HEAD
 th, td {
-=======
-th,
-td {
->>>>>>> fcb058b (Agrupando colunas com colgroup)
   border: 1px solid red;
   padding: 8px;
 }
 
 col.cnome {
-<<<<<<< HEAD
   background-color: #5465FF;
 }
 
@@ -45,19 +35,3 @@ col.cidade {
 col.cprof{
   background-color: #BFD7FF;
 }
-=======
-  background-color: #5465ff;
-}
-
-col.csexo {
-  background-color: #788bff;
-}
-
-col.cidade {
-  background-color: #9bb1ff;
-}
-
-col.cprof {
-  background-color: #bfd7ff;
-}
->>>>>>> fcb058b (Agrupando colunas com colgroup)
