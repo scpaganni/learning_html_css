@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <!-- Configuração em formulário para proibir o envio de campos em branco -->
+    <!-- Tamanho mínimo e máximo nos campos e o atributo placeholder -->
+    <h1>Formulários</h1>
+    <form autocomplete="on" method="post" action="">
+      <p>
+        <label for="iUsuario">Usuário</label>
+        <input
+          type="text"
+          name="usuario"
+          id="iUsuario"
+          required
+          placeholder="Alfonsus X"
+          autocomplete="username"
+        />
+      </p>
+      <p>
+        <label for="iSenha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="iSenha"
+          required
+          minlength="6"
+          maxlength="10"
+          autocomplete="current-password"
+        />
+      </p>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
